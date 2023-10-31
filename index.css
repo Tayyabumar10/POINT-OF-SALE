@@ -1,0 +1,47 @@
+#carttab{
+    width: 300px;
+    background-color: rgb(77, 74, 74);
+    color: white;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+}
+
+#carttab h1{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+  
+}
+
+#carttab #btn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.close{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.checkout{
+    background-color: rgb(161, 161, 0);
+    color: whitesmoke;
+}
+
+#list{
+    overflow: auto;
+}
+
+#list::-webkit-scrollbar{
+    width: 0;
+}
+
+
+ body.showcart #carttab{
+    inset: 0 0 0 auto;
+}  
+
+
+  
