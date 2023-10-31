@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/index.css">
+    <title>Document</title>
+</head>
+<body class="showcart">
+    <div class="flex">
+        <!-- sidebar -->
+        <div class="w-64 h-screen overflow-hidden bg-gray-300" >
+             <div class="flex flex-col justify-between h-full px-5 py-8">
+                <div class="mx-auto">
+                    <!-- title -->
+                    <div class="text-4xl mb-5 text-center font-sans font-bold cursor-pointer">Foodee</div>
+                    <!-- profile -->
+                    <div>
+                        <div class="border p-1.5 rounded-full w-fit mx-auto">
+                            <div class="h-16 w-16 rounded-full overflow-hidden relative">
+                                <img class="absolute top-0 left-0 w-full object-cover" src="./assets/images/young-beautiful-female-chef-portrait-in-kitchen-BT0M92.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="text-center ">
+                            <h3 class="text-xl font-sans">Merry Clinton</h3>
+                            <div class="text-gray-600 text-sm ">Chef at Rolex</div>
+                            <div class="flex items-center justify-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill text-red-500" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                                  </svg>
+                                  <div class="text-gray-700">255</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- menu items -->
+                    <div class="mx-auto mt-14">
+                        <a href="#" class=" flex items-center gap-2 text-gray-500 hover:text-gray-800 mb-3" >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                              </svg>
+                              Recipes
+                              
+                        </a>
+
+                        <a href="#" class=" flex items-center gap-2 text-gray-500 hover:text-gray-800 mb-3" >
+                            
+                        <img class="w-5 h-5" src="./assets/images/dinner_272155.png" alt="">
+                           
+                              Dine In
+                        </a>
+
+                        <a href="#" class=" flex items-center gap-2 text-gray-500 hover:text-gray-800 mb-3" >
+                            <img class="w-6 h-6" src="./assets/images/pngwing.com (1).png" alt="">
+                              Take Away
+                        </a>
+
+                       
+                    </div>
+
+                </div>
+                <div class="text-center text-gray-700 bg-red-100 p-2 rounded-md">
+                    <svg class="mx-auto text-yellow-500 text-3xl" xmlns="http://www.w3.org/2000/svg" width="25" height="25" margin-right="2rem" fill="currentColor" class="bi bi-star-fil" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <div >Buy premium for adavanced <a class="underline cursor-pointer">Features</a></div>
+
+                </div>
+               
+              
+
+             </div>
+        </div>
+        <!-- main -->
+        
+          <div class="bg-gray-500 w-full h-screen overflow-y-scroll p-8">
+            <!-- top bar -->
+            <div class="flex justify-between items-center">
+             <div class="flex items-center gap-2 border-b border-gray-400 pb-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                  <input placeholder="search recipes here......"
+                  class="bg-transparent w-80 outline-none border-none"
+                  >
+             </div>
+             <div class="flex">
+                <div class="bg-[#eab208e3] ml-15px px-10 py-2 rounded-md mr-5 cursor-pointer">Go to premium</div>
+              
+                <div class="iconcart relative px-3 py-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cart-dash-fill cursor-pointer" viewBox="0 0 16 16">
+                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                      </svg>
+                      <span class="bg-[#eab208e3] rounded-full px-1 absolute top-0 right-0 ">0</span>
+                </div>
+
+             </div>
+
+             <!-- cart tab -->
+
+             <div id="carttab">
+                <h1>Shopping Cart</h1>
+                <div id="list">
+
+                </div>
+                <div id="btn">
+                    <button class="close">Close</button>
+                    <button class="checkout">Checkout</button>
+                </div>
+             </div>
+            
+
+            </div>
+
+            
+
+         <script>
+          
+          const btn = document.querySelectorAll('button')
+          btn.forEach((buttons)=>{
+            buttons.addEventListener('click',()=>{
+            console.log('click')
+                
+               
+            })
+          }) 
+          
+         </script>  
+             
+          
+       
+           
+</body>
+</html>
